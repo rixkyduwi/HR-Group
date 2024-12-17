@@ -17,7 +17,6 @@ class DummyKPISeeder extends Seeder
             [
                 'user_id' => '9',
                 'Jabatan_id' => '1',
-                'name' => 'HRD',
                 'desc' => 'TEST DESCRIPTION',
                 'bobot' => '20',
                 'target' => '100',

@@ -172,7 +172,7 @@
         <header class="bg-white shadow-md p-4 flex justify-between items-center">
             <button id="sidebarToggle"
                 class="lg:hidden text-black font-bold text-2xl p-2 rounded focus:outline-none">☰</button>
-            <h2 class="text-2xl font-semibold">Dashboard Manager HRD</h2>
+            <h2 class="text-2xl font-semibold">Dashboard Manager @php echo Auth::user()->role @endphp </h2>
             <div x-data="{ open: false }" class="relative">
                 <button @click="open = !open" class="flex items-center space-x-2 p-2">
                     <span class="text-lg">Menu</span>
